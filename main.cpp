@@ -32,7 +32,7 @@ int displayMenu(){
 }
 
 // Function to run menu loop
-void runMenu();
+void runMenu(){
 // Menu selection
     int choice;
 do{
@@ -70,7 +70,7 @@ do{
         default:
             std::cout << "Invalid choice. Please try again.\n";
             break;
+            // End of menu selection if 3 was selected
         }
-    // End of menu selection if 3 was selected
     } while (choice != 3);
 }
